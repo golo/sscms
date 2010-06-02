@@ -5,7 +5,7 @@
 	<?php
 		echo $this->Form->input('title');
 		echo $this->Form->input('content');
-		echo $this->Form->input('parent_id', array('type' => 'hidden'));
+		echo $this->Form->input('parent_id');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit', true));?>

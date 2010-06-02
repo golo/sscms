@@ -2,7 +2,7 @@
 class Node extends SscmsAppModel {
 	var $name = 'Node';
 	var $displayField = 'title';
-	var $actsAs = array('Tree');
+	var $actsAs = array('Tree' => array());
 	var $validate = array(
 		'title' => array(
 			'notempty' => array(
