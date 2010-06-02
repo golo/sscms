@@ -5,9 +5,7 @@
 	<?php
 		echo $this->Form->input('title');
 		echo $this->Form->input('content');
-		echo $this->Form->input('parent_id');
-		echo $this->Form->input('lft');
-		echo $this->Form->input('rght');
+		echo $this->Form->input('parent_id', array('type' => 'hidden'));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit', true));?>
