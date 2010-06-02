@@ -1,6 +1,5 @@
 <?php 
-/* SVN FILE: $Id$ */
-/* App schema generated on: 2010-06-01 17:06:36 : 1275432396*/
+
 class AppSchema extends CakeSchema {
 	var $name = 'App';
 
@@ -21,4 +20,3 @@ class AppSchema extends CakeSchema {
 		'tableParameters' => array('charset' => 'utf8', 'collate' => 'utf8_general_ci', 'engine' => 'InnoDB')
 	);
 }
-?>

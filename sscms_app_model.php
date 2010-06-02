@@ -3,5 +3,3 @@
 class SscmsAppModel extends AppModel {
 
 }
-
-?>

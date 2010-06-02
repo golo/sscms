@@ -59,4 +59,3 @@ class NodesController extends SscmsAppController {
 		$this->redirect(array('action' => 'index'));
 	}
 }
-?>

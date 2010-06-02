@@ -15,4 +15,3 @@ class Node extends SscmsAppModel {
 		),
 	);
 }
-?>
