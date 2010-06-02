@@ -5,6 +5,9 @@
 			<th><?php echo $this->Paginator->sort('id');?></th>
 			<th><?php echo $this->Paginator->sort('title');?></th>
 			<th><?php echo $this->Paginator->sort('content');?></th>
+			<th><?php echo $this->Paginator->sort('parent_id');?></th>
+			<th><?php echo $this->Paginator->sort('lft');?></th>
+			<th><?php echo $this->Paginator->sort('rght');?></th>
 			<th><?php echo $this->Paginator->sort('created');?></th>
 			<th><?php echo $this->Paginator->sort('modified');?></th>
 			<th class="actions"><?php __('Actions');?></th>
@@ -21,6 +24,9 @@
 		<td><?php echo $node['Node']['id']; ?>&nbsp;</td>
 		<td><?php echo $node['Node']['title']; ?>&nbsp;</td>
 		<td><?php echo $node['Node']['content']; ?>&nbsp;</td>
+		<td><?php echo $node['Node']['parent_id']; ?>&nbsp;</td>
+		<td><?php echo $node['Node']['lft']; ?>&nbsp;</td>
+		<td><?php echo $node['Node']['rght']; ?>&nbsp;</td>
 		<td><?php echo $node['Node']['created']; ?>&nbsp;</td>
 		<td><?php echo $node['Node']['modified']; ?>&nbsp;</td>
 		<td class="actions">
